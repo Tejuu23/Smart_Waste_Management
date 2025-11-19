@@ -86,7 +86,7 @@ io.on('connection', (socket) => {
 // =========================
 // ✅ Start server
 // =========================
-const port = process.env.PORT || 4001;
+const port = process.env.PORT || 4000;
 
 connectDb().then(() => {
   server.listen(port, () => {
